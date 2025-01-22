@@ -209,7 +209,7 @@ p {
   width: calc(100% - 72px);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  height: 380px;
+  height: 428px;
 }
 
 .team-member {
@@ -221,6 +221,35 @@ p {
 }
 .expert {
   text-align: center;
+}
+.soc-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.team-soc-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-items: center;
+  width: 232px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.team-soc-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-soc-link:hover {
+  background-color: #404bbf;
 }
 
 /* SECTION PORTFOLIO */
