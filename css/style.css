@@ -48,6 +48,20 @@ p {
 .header-nav {
   border-bottom: 1px solid #e7e9fc;
 }
+.menu-items {
+  position: relative;
+}
+
+.menu-items:active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 20px;
+  border-radius: 2px;
+  height: 4px;
+  background-color: #404bbf;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -121,7 +135,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/heroimage.jpg);
+    url(../images/peopleoffice.jpg);
   background-position: center;
   max-width: 1440px;
   margin: 0 auto;
