@@ -306,6 +306,10 @@ p {
 /* FOOTER */
 
 .basement {
+  display: flex;
+  align-items: first baseline;
+  justify-content: flex-start;
+  flex-grow: 1;
   background-color: rgb(46, 47, 66);
   color: #f4f4fd;
   padding: 100px 0;
@@ -319,10 +323,34 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 17.5px;
 }
 .foot-text {
   max-width: 264px;
+}
+.footer-container-text {
+  display: block;
+  margin: 0 0 0 156px;
+  max-width: 264px;
+  padding: 0;
+}
+.footer-soc-title {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.footer-container-soc {
+  margin: 0 0 0 120px;
+  max-width: 208px;
+  padding: 0;
+}
+.footer-team-soc-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-items: center;
+  width: 232px;
+  height: 40px;
+  margin-top: 8px;
 }
