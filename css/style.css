@@ -264,8 +264,8 @@ p {
 }
 .team-list {
   display: flex;
-  gap: 24px;
   justify-content: center;
+  gap: 24px;
 }
 .team-item {
   width: calc(100% - 72px);
@@ -399,15 +399,18 @@ p {
   max-width: 264px;
 }
 .footer-container-text {
-  display: block;
-  margin: 0 0 0 156px;
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
   max-width: 264px;
   padding: 0;
 }
 .footer-soc-title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 .footer-container-soc {
   margin: 0 0 0 120px;
@@ -423,6 +426,7 @@ p {
   height: 40px;
   margin-top: 8px;
 }
+
 .footer-soc-link {
   width: 40px;
   height: 40px;
